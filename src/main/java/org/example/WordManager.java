@@ -35,6 +35,7 @@ public class WordManager {
             }
             if(menu == 1) {
                 // list
+
             }
         }
     }

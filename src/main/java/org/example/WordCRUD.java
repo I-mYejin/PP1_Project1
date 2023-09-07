@@ -44,4 +44,5 @@ public class WordCRUD implements ICRUD{
     public void selectOne(int id) {
 
     }
+
 }
