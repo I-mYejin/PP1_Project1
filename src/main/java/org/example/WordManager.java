@@ -11,8 +11,7 @@ public class WordManager {
     }
 
     public int selectMenu(){
-        System.out.print("*** 영단어 마스터 ***\n"
-                + "**********************\n"
+        System.out.print("**********************\n"
                 + "1. 모든 단어 보기\n"
                 + "2. 수준별 단어 보기\n"
                 + "3. 단어 검색\n"
@@ -29,7 +28,10 @@ public class WordManager {
     public void start(){
         while(true) {
             int menu = selectMenu();
-            if(menu == 0) break;
+            if(menu == 0) {
+                System.out.println("프로그램 종료! 다음에 만나요~");
+                break;
+            }
             if(menu == 4) {
                 wordCRUD.addWord();
             }
