@@ -11,7 +11,7 @@ public class WordManager {
     }
 
     public int selectMenu(){
-        System.out.print("**********************\n"
+        System.out.print("\n**********************\n"
                 + "1. 모든 단어 보기\n"
                 + "2. 수준별 단어 보기\n"
                 + "3. 단어 검색\n"
@@ -52,7 +52,7 @@ public class WordManager {
             else if(menu == 6) { //delete
                 wordCRUD.deleteItem();
             }
-            else if(menu == 7) { //delete
+            else if(menu == 7) {
                 wordCRUD.saveFile();
             }
         }
